@@ -5,10 +5,9 @@
  * from JavaScript.
  */
 
-//WIEBE
-
 // Include Moblet for web applications.
 #include <Wormhole/WebAppMoblet.h>
+#include <api_connections.h>
 
 // Namespaces we want to access.
 using namespace MAUtil; // Class Moblet
