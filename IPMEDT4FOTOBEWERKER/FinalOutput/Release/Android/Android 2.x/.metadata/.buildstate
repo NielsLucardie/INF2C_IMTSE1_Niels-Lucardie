@@ -1,0 +1,52 @@
+rebuild-needed = false
+variant = Android/Android\\ 2.x Release Finalizer 
+success = true
+timestamp = 1331558485981
+output = C:\\MoSync\\workspace\\IPMEDT4FOTOBEWERKER\\FinalOutput\\Release\\Android\\Android 2.x\\package\\IPMEDT4FOTOBEWERKER.apk
+
+[files]
+pretty.mof = 1329482310306
+FotoScherm.h = 1331558377381
+background_tile_sel.png = 1329482309927
+main.cpp = 1330953493773
+FotoScherm.cpp = 1331558467920
+.project = 1330953533059
+res.lst = 1330956451948
+FotoBewerker.cpp = 1331555407790
+.mosyncproject.local = 1330948695993
+background_tile_unsel.png = 1329482309943
+.mosyncproject = 1330948695992
+.cproject = 1330953543752
+FotoBewerker.h = 1330953654795
+
+[dependencies]
+/IPMEDT4FOTOBEWERKER/FotoScherm.cpp = /IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/FotoScherm.s
+/IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/resources = /IPMEDT4FOTOBEWERKER/background_tile_sel.png, /IPMEDT4FOTOBEWERKER/pretty.mof, /IPMEDT4FOTOBEWERKER/background_tile_unsel.png
+/IPMEDT4FOTOBEWERKER/FotoBewerker.cpp = /IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/FotoBewerker.s
+/IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/main.s = /IPMEDT4FOTOBEWERKER/MoSync/include/maapi.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maarg.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mastring.h, /IPMEDT4FOTOBEWERKER/MoSync/include/kazlib/hash.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashMap.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Label.h, /IPMEDT4FOTOBEWERKER/FotoScherm.h, /IPMEDT4FOTOBEWERKER/MoSync/include/ma.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maapi_defs.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Widget.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Vector.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mavsprintf.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maassert.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Environment.h, /IPMEDT4FOTOBEWERKER/MoSync/include/limits.h, /IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android, /IPMEDT4FOTOBEWERKER/FotoBewerker.h, /IPMEDT4FOTOBEWERKER/main.cpp, /IPMEDT4FOTOBEWERKER/MoSync/include/conprint.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/RefCounted.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/WidgetSkin.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/String.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maheap.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashDict.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Moblet.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/collection_common.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Screen.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/InputManager.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Font.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashMap_impl.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mactype.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Connection.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/ListenerSet.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashDict_impl.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Geometry.h
+/IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/MAHeaders.h = /IPMEDT4FOTOBEWERKER/res.lst
+/IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/FotoScherm.s = /IPMEDT4FOTOBEWERKER/MoSync/include/maapi.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maarg.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mastring.h, /IPMEDT4FOTOBEWERKER/MoSync/include/kazlib/hash.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Label.h, /IPMEDT4FOTOBEWERKER/FotoScherm.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashMap.h, /IPMEDT4FOTOBEWERKER/MoSync/include/ma.h, /IPMEDT4FOTOBEWERKER/FotoScherm.cpp, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Widget.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maapi_defs.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Vector.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mavsprintf.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maassert.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Environment.h, /IPMEDT4FOTOBEWERKER/MoSync/include/limits.h, /IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android, /IPMEDT4FOTOBEWERKER/MoSync/include/conprint.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/WidgetSkin.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/RefCounted.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/String.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maheap.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashDict.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Screen.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/collection_common.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/InputManager.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashMap_impl.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Font.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Connection.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mactype.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/ListenerSet.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashDict_impl.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Geometry.h
+/IPMEDT4FOTOBEWERKER/main.cpp = /IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/main.s
+/IPMEDT4FOTOBEWERKER/res.lst = /IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/resources
+/IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android 2.x/FotoBewerker.s = /IPMEDT4FOTOBEWERKER/MoSync/include/maapi.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maarg.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mastring.h, /IPMEDT4FOTOBEWERKER/MoSync/include/kazlib/hash.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashMap.h, /IPMEDT4FOTOBEWERKER/FotoScherm.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Label.h, /IPMEDT4FOTOBEWERKER/FotoBewerker.cpp, /IPMEDT4FOTOBEWERKER/MoSync/include/ma.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Widget.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maapi_defs.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Vector.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Environment.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maassert.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mavsprintf.h, /IPMEDT4FOTOBEWERKER/MoSync/include/limits.h, /IPMEDT4FOTOBEWERKER/FinalOutput/Release/Android/Android, /IPMEDT4FOTOBEWERKER/FotoBewerker.h, /IPMEDT4FOTOBEWERKER/MoSync/include/conprint.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/RefCounted.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/WidgetSkin.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/String.h, /IPMEDT4FOTOBEWERKER/MoSync/include/maheap.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashDict.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Moblet.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Screen.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/collection_common.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/InputManager.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashMap_impl.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUI/Font.h, /IPMEDT4FOTOBEWERKER/MoSync/include/mactype.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Connection.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/ListenerSet.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/Geometry.h, /IPMEDT4FOTOBEWERKER/MoSync/include/MAUtil/HashDict_impl.h
+
+[build-properties]
+build.prefs:additional.include.paths/Release = 
+excludes/Release = 
+template.id = project.maui
+build.prefs:additional.libraries = MAUtil.lib,MAUI.lib
+build.prefs:gcc.warnings/Release = 0
+build.prefs:additional.library.paths/Release = 
+build.prefs:extra.res.sw/Release = 
+dependency.strategy = 0
+build.prefs:memory.heap/Release = 1536
+build.prefs:memory.heap/Debug = 1536
+build.prefs:additional.libraries/Debug = MAUtilD.lib,MAUID.lib
+build.prefs:extra.link.sw/Release = 
+build.prefs:memory.stack/Release = 256
+build.prefs:memory.stack/Debug = 256
+build.prefs:memory.data/Debug = 2048
+build.prefs:additional.libraries/Release = MAUtil.lib,MAUI.lib,MTXml.lib
+build.prefs:project.type = 
+build.prefs:memory.data/Release = 2048
+

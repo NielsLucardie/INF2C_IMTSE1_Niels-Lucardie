@@ -1,0 +1,65 @@
+<!--
+Gemaakt door Niels Lucardie - INF2C - IMTSE1
+
+Het scherm bestaat uit een splash screen voor de applicatie met een fade in op het HS Logo.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/bridge.js"></script>
+<script>
+
+function initImage() {
+	  imageId = 'thephoto';
+	  image = document.getElementById(imageId);
+	  setOpacity(image, 0);
+	  image.style.visibility = 'visible';
+	  fadeIn(imageId,0);
+}
+
+function setOpacity(obj, opacity) {
+	  opacity = (opacity == 100)?99.999:opacity;
+	  
+	  // IE/Win
+	  obj.style.filter = "alpha(opacity:"+opacity+")";
+	  
+	  // Safari<1.2, Konqueror
+	  obj.style.KHTMLOpacity = opacity/100;
+	  
+	  // Older Mozilla and Firefox
+	  obj.style.MozOpacity = opacity/100;
+	  
+	  // Safari 1.2, newer Firefox and Mozilla, CSS3
+	  obj.style.opacity = opacity/100;
+}
+
+function fadeIn(objId,opacity) {
+	  if (document.getElementById) {
+	    obj = document.getElementById(objId);
+	    if (opacity <= 100) {
+	      setOpacity(obj, opacity);
+	      opacity += 2;
+	      window.setTimeout("fadeIn('"+objId+"',"+opacity+")", 100);
+	    }else{
+	    	var t=setTimeout("",2000);
+	    	window.location = "jaar1.html";
+	    }
+	  }
+}
+
+</script>
+</head>
+
+<body onLoad="initImage();" style="text-align:center; vertical-align:middle;">
+
+<div style="height:350px;">
+<img width="200px" src='images/HSLOGO.JPG' alt='Hs-Leiden' id='thephoto' style='visibility:hidden;' />
+</div>
+
+<footer>
+<img src="images/faces.png" style="width:100%; margin-bottom:0px; padding-bottom:0px;"/>
+</footer>
+
+</body>
+</html>
