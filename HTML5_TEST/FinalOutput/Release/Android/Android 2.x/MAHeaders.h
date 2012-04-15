@@ -1,1 +1,0 @@
-#define LOCAL_FILES_BIN 1
